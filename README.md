@@ -27,9 +27,10 @@ Code is licensed under the Apache 2.0 license.
 
 Part 1 Modifications
 
-    theme paragraphs to BerkshireSwash_Regular font
+    theme paragraphs to Times New Roman font
     set the paragraphs with left align, 1.5 em indent and 1 em margin
-    theme header tags with Georgia font, and set the margin area with 20%
+    theme header tags with Times New Roman font, and set the margin area with 20%
+    set the body with Georgia font
     set image captions as 25% width of the original size
     set background into parchment
     set the link color and hover color into red and green

@@ -6,7 +6,7 @@
 }
 /*Theme paragraphs with CSS*/
 p{
-    font-family: BerkshireSwash_Regular;
+    font-family: "Times New Roman", Times, serif;
 	text-align: left;
 	text-indent: 1.5em;
     margin-top: 1em;
@@ -19,10 +19,10 @@ h1,h2,h3,h4,h5,h6{
     margin-left: 20%;
     margin-right: 20%;
     font-weight: bold;
-    font-family: Georgia, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 a.pginternal {
-    font-family: Georgia, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 /*Theme images and images captions with CSS*/
 img{
