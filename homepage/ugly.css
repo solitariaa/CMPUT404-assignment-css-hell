@@ -1,0 +1,92 @@
+@font-face {
+    font-family: BerkshireSwash_Regular;
+    src:url("BerkshireSwash_Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+img{
+    height: 11em;
+}
+body{
+    background-image: url("background.jpg");
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+.black{
+    background-color: #000;
+}
+.header {
+    margin: 0;
+    font-size: 500%;
+    font-family:BerkshireSwash_Regular;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(#fc0000, #00ff2a);
+    background-size: 100%;
+    color: #0400ff;
+}
+
+.header h1{
+    font:italic bold 30px Georgia,serif;
+}
+.header h2{
+    font:italic bold 30px Georgia,serif;
+}
+.navi{
+    padding-bottom: 1em;
+    text-align: center;
+    background-color:rgb(218, 61, 61);
+}
+.navi_item{
+    display: inline;
+}
+.navi_item a {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #a3928f;
+}
+.navi_item :hover{
+    color: #b38282;
+}
+
+.main{
+    width: 100%;
+    display: inline-flex;
+}
+.w div{
+    display: flex;
+}
+.w div .a{
+    text-align:center;
+    margin:auto;
+    display: block;
+    width: inherit;
+}
+.s {
+    margin:auto;
+    text-align: center;
+    background-color: #b1b1b17e;
+    width: 70%;
+}
+.s ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: #000;
+    font: italic bold 12px Georgia,serif;
+}
+.s ul li h3{
+    margin-top: 20%;
+    color: #424881;
+    
+}
+.d{
+    text-align: match-parent;
+}
+.side{
+    background-color: transparent;
+}
+.a ul{
+    list-style-type: none;
+}

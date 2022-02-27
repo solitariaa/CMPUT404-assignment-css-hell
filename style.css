@@ -1,0 +1,47 @@
+@font-face {
+    font-family: BerkshireSwash_Regular;
+    src:url("BerkshireSwash_Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+/*Theme paragraphs with CSS*/
+p{
+    font-family: BerkshireSwash_Regular;
+	text-align: left;
+	text-indent: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/*Theme header tags with CSS*/
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+a.pginternal {
+    font-family: Georgia, serif;
+}
+/*Theme images and images captions with CSS*/
+img{
+    width:25%;
+	display: block;
+	border: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Change the colour scheme to something aesthetically pleasing*/
+body{
+	/* image from https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.myfreetextures.com%2Fwp-content%2Fuploads%2F2011%2F06%2Fan-old-and-worn-parchment-paper.jpg&imgrefurl=https%3A%2F%2Fwww.myfreetextures.com%2Fworn-parchment-paper%2F&tbnid=U18vHIJQ5KkbuM&vet=12ahUKEwifhdyl8Zz2AhW3KjQIHXQDC5EQMygvegUIARCuAg..i&docid=_k9FC0jbobNTLM&w=3500&h=4250&q=yellow%20paper%20background&client=firefox-b-d&ved=2ahUKEwifhdyl8Zz2AhW3KjQIHXQDC5EQMygvegUIARCuAg*/
+	background-image: url("background.jpg");
+	text-align: center;
+    font-family: Georgia, serif;
+}
+a {
+    color: #af1b23
+}
+a:hover {
+    color: #24e645
+}
